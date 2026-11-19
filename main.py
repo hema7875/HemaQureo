@@ -3,7 +3,7 @@ import telebot
 import requests
 
 # استحباز توكن البوت من بيئة التشغيل السحابية أماناً
-TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN')
+TOKEN = os.environ.get('BOT_TOKEN', '8640083451:AAEQLXiR4JsYrYGQlMbuq_kxqRsipbs1KGE')
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
